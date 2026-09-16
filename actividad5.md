@@ -10,6 +10,10 @@
 
 Los ejercicios deben estar bien resueltos y con los pasos explicados.
 
+**Ubica los siguientes números complejos en el plano**
+![](./
+
+
 **Resuelve las siguientes operaciones con los números complejos**
 
 **(25)** ($-7-4i$) - ($2+i$) = $-9-5i$
