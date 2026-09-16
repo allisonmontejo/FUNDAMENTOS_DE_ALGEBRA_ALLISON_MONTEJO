@@ -10,4 +10,4 @@
 Los ejercicios deben estar bien resueltos y con los pasos explicados.
 
 **Ubica los siguientes números complejos en el plano**
-![Numeroscomplejos](Planocartesiano.png)
+![Numeroscomplejos](Ubicar.png)
