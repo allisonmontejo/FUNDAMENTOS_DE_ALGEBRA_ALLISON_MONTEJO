@@ -11,7 +11,7 @@
 Los ejercicios deben estar bien resueltos y con los pasos explicados.
 
 **Ubica los siguientes números complejos en el plano**
-![](./
+![](./Planos numeros complejos.jpeg)
 
 
 **Resuelve las siguientes operaciones con los números complejos**
