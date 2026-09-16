@@ -133,90 +133,152 @@ Los ejercicios deben estar bien resueltos y con los pasos explicados.
 
 **Convierte los siguientes números complejos a su forma polar**
 
+
 **(55)** 6-8i
+
 z= 6-8i   a=6    b=-8
 r= √((6)^2 + (-8)^2) = √(36+64) = √100 = √10
 ⊖= tan-1 (-8/6)
 ⊖ = -53.13°
+
 10 (cos (306.87°) + i sin (306.87°))
 
+
 **(56)** 5√2+5√2*i
+
 r= √((5√2)^2 + (5√2)^2
 = √50+50
 = √100
 = √10
 ⊖ = 45°
+
 10 (cos45° + i sin 45°)
 
+
 **(57)** 2-2√3*i
+
 r= √(2)² + (-2√3)² = √(4+12) = 4
-⊖ = -60°  4(cos(-60°)+ i sin(-60°))
+⊖ = -60°  
+
+4(cos(-60°)+ i sin(-60°))
 
 **(58)** 3√3/2 - 3i/2
+
 3√3/2 - 3/2i   r=√27/4+9/4 = √36 = 3
-⊖ = -30°   3(cos(-30)+i sin(-30°))
+⊖ = -30°   
+
+3(cos(-30)+i sin(-30°))
 
 **(59)** -2
+
 r=2
-⊖=180°   2(cos180° + i sin180°)
+⊖=180°   
+
+2(cos180° + i sin180°)
 
 **(60)** -7i
-r=7
-⊖=270°  7(cos270° + i sin270°)
 
-**(61)** cos 30 + i sin 30
+r=7
+⊖=270°  
+
+7(cos270° + i sin270°)
+
+
+**(61) cos 30 + i sin 30**
+
 cos 30° = √3/2  sin30° = 1/2 = √3/2 + 1/2i
 
-**(62)** 2 (cos 60 + i sin 60)
+
+**(62) 2 (cos 60 + i sin 60)**
+
 2(1/2 + √3/2 i) = 1 + √3i
 
-**(63)** 1.5 (cos90 + i sin 90)
+
+**(63) 1.5 (cos90 + i sin 90)**
+
 cos 90° = 0
+
 sin 90° = 1
+
 = 1.5 (0+i) = 1.5i
 
-**(64)** 2.5 (cos 120 + i sin 120)
+
+**(64) 2.5 (cos 120 + i sin 120)**
+
 cos 120° = - 1/2   sin 120° = √3/2
+
 = -1.25 + 5√3/4 i
+
 = 2.5 (- 1/2 + √3/2 i)
 
-**(65)** 4 (cos 135 + i sin 135)
+
+**(65) 4 (cos 135 + i sin 135)**
+
 cos 135° = - √2/2  sin 135° = √2/2
+
 = 4 (- √2/2 + √2/2 i)  -2√2 + 2√2i
 
-**(66)** 3(cos 180 + i sin 180)
+**(66) 3(cos 180 + i sin 180)**
+
 = 3(-1 + 0i)
+
 = -3
 
-**(67)** 2 raíces cuadradas de 4 (cos30+i sin30)
+**(67) 2 raíces cuadradas de 4 (cos30+i sin30)**
+
 k=0  2(cos15°+ i sin15°)
+
 k=1  2(cos 195° + i sin195°)
 
-**(68)** 2 raíces cuadradas 3 (cos90+i sin90)
+
+**(68) 2 raíces cuadradas 3 (cos90+i sin90)**
+
 k=0  1.732(cos45° + i sin45°)
+
 k=1 1.732(cos225° + i sin225°)
 
-**(69)** 3 raíces cúbicas de -4√2 + 4i√2
+
+**(69) 3 raíces cúbicas de -4√2 + 4i√2**
+
 k=0  2(cos45° + i sin45°)
+
 k=1 2(cos165° + i sin165°)
+
 k=2 2(cos285° + i sin285°)
 
-**(70)** 3 raíces cúbicas de -27/8
+
+**(70) 3 raíces cúbicas de -27/8**
+
 k=0  1.5(cos60° + i sin60°)
+
 k=1  1.5(cos180° + i sin180°)
+
 k=2  1.5(cos300° + i sin300°)
 
-**(71)** 5 raíces de -32i
+
+**(71) 5 raíces de -32i**
+
 k=0 2(cos342° + i sin342°)
+
 k=1 2(cos54° + i sin54
+
 k=2 2(cos126° + i sin126°)
+
 k=3 2(cos198° + i sin198°)
+
 k=4 2(cos270° + i sin270°)
 
-**(72)** 6 raíces de 729
+
+**(72) 6 raíces de 729**
+
 k=0 3(cos0° + i sin0°)
+
 k=1 3(cos60° + i sin60°)
+
 k=2 3(cos120° + i sin120°)
+
 k=3 3(cos180° + i sin180°)
+
 k=4 3(cos240° + i sin240°)
+
 k=5 3(cos300° + i sin300°)
