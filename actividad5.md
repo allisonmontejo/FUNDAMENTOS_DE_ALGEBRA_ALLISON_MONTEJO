@@ -11,7 +11,7 @@
 Los ejercicios deben estar bien resueltos y con los pasos explicados.
 
 **Ubica los siguientes números complejos en el plano**
-![](./Plano cartesiano.png)
+![](./Plano cartesiano.png).
 
 
 **Resuelve las siguientes operaciones con los números complejos**
