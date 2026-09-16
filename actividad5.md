@@ -11,7 +11,7 @@
 Los ejercicios deben estar bien resueltos y con los pasos explicados.
 
 **Ubica los siguientes números complejos en el plano**
-![](./Plano cartesiano.png).
+![Numeroscomplejos](Planocartesiano.png)
 
 
 **Resuelve las siguientes operaciones con los números complejos**
@@ -143,4 +143,5 @@ r= √((5√2)^2 + (5√2)^2
 
 **(58)** 3√3/2 - 3i/2
 
-**(59)** 
+**(59)**
+
