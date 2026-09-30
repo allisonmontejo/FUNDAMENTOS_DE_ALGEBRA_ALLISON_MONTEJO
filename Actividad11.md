@@ -1,3 +1,13 @@
+# Allison Peña Montejo
+
+# Fundamentos de álgebra
+
+# Ejercicio #11
+---
+
+## Registro de los ejercicios
+---
+
 ### Ejercicio 115
 
 $$(5 - 11v) - (-3v^2 + 9 - 13v) = (5 - 11v) + (3v^2 - 9 + 13v)$$
