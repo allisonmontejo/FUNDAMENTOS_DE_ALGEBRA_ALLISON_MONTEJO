@@ -2,12 +2,6 @@
 
 ## Ejercicios 1-32: Resuelve los siguientes binomios
 
-**Fórmulas usadas**
-- Binomio al cuadrado: (a ± b)² = a² ± 2ab + b²
-- Binomios conjugados: (a + b)(a − b) = a² − b²
-- Binomios con término común: (x + a)(x + b) = x² + (a + b)x + ab
-- Binomio al cubo: (a ± b)³ = a³ ± 3a²b + 3ab² ± b³
-
 ---
 
 ### Binomios al cuadrado
@@ -34,14 +28,29 @@
 
 ### Producto de binomios
 
-17) (8m + 8)(8m + 5) = 64m² + 40m + 64m + 40 = 64m² + 104m + 40
-18) (5p + 8)(5p + 6) = 25p² + 30p + 40p + 48 = 25p² + 70p + 48
-19) (−5a + 5)(−5a − 3) = 25a² + 15a − 25a − 15 = 25a² − 10a − 15
-20) (n − 1)(n − 2) = n² − 2n − n + 2 = n² − 3n + 2
-21) (−6x − 7)(3x − 7) = −18x² + 42x − 21x + 49 = −18x² + 21x + 49
-22) (3n − 2)(−n − 2) = −3n² − 6n + 2n + 4 = −3n² − 4n + 4
-23) (2n + 1)(−8n + 1) = −16n² + 2n − 8n + 1 = −16n² − 6n + 1
-24) (7v + 1)(7v + 5) = 49v² + 35v + 7v + 5 = 49v² + 42v + 5
+17) (8m + 8)(8m + 5) = 64m² + 40m + 64m + 40
+   = 64m² + 104m + 40
+
+18) (5p + 8)(5p + 6) = 25p² + 30p + 40p + 48
+   = 25p² + 70p + 48
+
+19) (−5a + 5)(−5a − 3) = 25a² + 15a − 25a − 15
+   = 25a² − 10a − 15
+
+20) (n − 1)(n − 2) = n² − 2n − n + 2
+   = n² − 3n + 2
+
+21) (−6x − 7)(3x − 7) = −18x² + 42x − 21x + 49
+   = −18x² + 21x + 49
+
+22) (3n − 2)(−n − 2) = −3n² − 6n + 2n + 4
+   = −3n² − 4n + 4
+
+23) (2n + 1)(−8n + 1) = −16n² + 2n − 8n + 1
+    = −16n² − 6n + 1
+    
+24) (7v + 1)(7v + 5) = 49v² + 35v + 7v + 5
+    = 49v² + 42v + 5
 
 ### Binomios al cubo
 
