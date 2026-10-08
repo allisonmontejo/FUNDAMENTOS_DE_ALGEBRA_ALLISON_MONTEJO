@@ -1,5 +1,6 @@
-**Fundamentos de Álgebra: Serie de Ejercicios, Unidad 2**
-  **Ejercicios 1-32: Resuelve los siguientes binomios**
+#Fundamentos de Álgebra: Serie de Ejercicios, Unidad 2
+
+##Ejercicios 1-32: Resuelve los siguientes binomios
 
 **Fórmulas usadas**
 - Binomio al cuadrado: (a ± b)² = a² ± 2ab + b²
