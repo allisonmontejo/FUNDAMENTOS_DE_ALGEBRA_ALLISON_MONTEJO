@@ -1,4 +1,4 @@
-# Fundamentos de Álgebra: Serie de Ejercicios, Unidad 2
+# Fundamentos de Álgebra: Unidad 2
 
 ## Ejercicios 1-32: Resuelve los siguientes binomios
 ---
