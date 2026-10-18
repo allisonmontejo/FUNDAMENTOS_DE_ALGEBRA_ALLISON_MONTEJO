@@ -67,7 +67,7 @@ Comprobación: 6(4n² − 4n + 1) = 24n² − 24n + 6
 ### 42) 24x² + 216x + 486
 
 **Resultado: 6(2x + 9)²**  
-Comprobación: (2x + 9)² = 4x² + 36x + 81, y por 6 da 24x² + 216x + 486
+Comprobación: (2x + 9)² = 4x² + 36x + 81, * 6 = 24x² + 216x + 486
 
 ---
 
@@ -95,14 +95,14 @@ Comprobación: (9x³ − 5)² = 81x⁶ − 90x³ + 25
 ### 46) 147k⁶ − 336k³ + 192
 
 **Resultado: 3(7k³ − 8)²**  
-Comprobación: (7k³ − 8)² = 49k⁶ − 112k³ + 64, y por 3 da 147k⁶ − 336k³ + 192
+Comprobación: (7k³ − 8)² = 49k⁶ − 112k³ + 64, * 3 = − 336k³ + 192
 
 ---
 
 ### 47) 36a⁸ − 192a⁵ + 256a²
 
 **Resultado: 4a²(3a³ − 8)²**  
-Comprobación: (3a³ − 8)² = 9a⁶ − 48a³ + 64, y por 4a² da 36a⁸ − 192a⁵ + 256a² 
+Comprobación: (3a³ − 8)² = 9a⁶ − 48a³ + 64, * 4a² = 36a⁸ − 192a⁵ + 256a² 
 
 ---
 
