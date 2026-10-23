@@ -567,8 +567,8 @@ x^2-9=(x-3)(x+3)
 
 Dividimos cada término entre \(x^2\):
 
-{5x^6}{x^2}=5x^4,\qquad
-{-2x^4}{x^2}=-2x^2,\qquad
+{5x^6}{x^2}=5x^4,
+{-2x^4}{x^2}=-2x^2,
 {10x^2}{x^2}=10
 
 
