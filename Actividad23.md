@@ -111,9 +111,9 @@ Para $x = 2$: $y = -2.6$
 Para $x = 2$: $y = -17$
 
 ### GRAFICAS
-![GRAFICAS](11.peg)
-![GRAFICAS](22.peg)
-![GRAFICAS](33.peg)
+![GRAFICAS](11.png)
+![GRAFICAS](22.png)
+![GRAFICAS](33.png)
 ---
 
 ## Ejercicios 89 a 104: Resolver las siguientes ecuaciones
