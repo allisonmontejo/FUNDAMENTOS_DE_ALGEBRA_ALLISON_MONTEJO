@@ -1,4 +1,4 @@
-# Fundamentos de Álgebra – Serie de Ejercicios, Unidad 3
+# Fundamentos de Álgebra – Unidad 3
 
 ## Ejercicios 1-12: Operaciones con matrices
 
