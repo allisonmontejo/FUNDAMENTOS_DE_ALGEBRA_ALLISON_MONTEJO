@@ -197,10 +197,10 @@ multiplicar([[1, 2], [3, 4]], [[1, 2, 3]]);
 /** Determinante de una matriz 2 × 2:  ad − bc */
 function det2(T) {
   var determinante = 0;
-  const a = T[0][0]
-  const b = T[0][1]
-  const c = T[1][0]
-  const d = T[1][1]
+  const a = T[0][0];
+  const b = T[0][1];
+  const c = T[1][0];
+  const d = T[1][1];
   // ALGORITMO PARA DETERMINANTE DE 2X2
   determinante = a * d - b * c;
   return determinante;
@@ -212,7 +212,9 @@ function det2(T) {
  */
 function transformar(x, y, T) {
   // TODO Workshop 2
-  pendiente('transformar', 'Workshop 2');
+  const xNuevo = T[0][0] * x + T[0][1] * y;
+  const yNuevo = T[1][0] * x + T[1][1] * y;
+  return [xNuevo, yNuevo];
 }
 
 /**
@@ -230,14 +232,26 @@ function transformar(x, y, T) {
  */
 function determinante(A) {
   // TODO Workshop 2
-  const [filas, columnas] =  orden(A);
-  var determinante = 0;
-  if (filas == 2) {
-    determinante = det2(A);
-    return determinante;
-  } else {
-    pendiente('determinante', 'Workshop 2');
+  const [filas, columnas] = orden(A);
+
+  if (filas !== columnas) {
+    throw new Error('El determinante solo existe para matrices cuadradas.');
   }
+  if (filas == 1) return A[0][0];
+  if (filas == 2) return det2(A);
+  let suma = 0;
+  for (let j = 0; j < columnas; j++) {
+    const menor = [];
+    for (let i = 1; i < filas; i++) {
+      const fila = [];
+      for (let k = 0; k < columnas; k++) {
+        if (k !== j) fila.push(A[i][k]);
+      }
+      menor.push(fila);
+    }
+    suma += Math.pow(-1, j) * A[0][j] * determinante(menor);
+  }
+  return suma;
 }
 
 
