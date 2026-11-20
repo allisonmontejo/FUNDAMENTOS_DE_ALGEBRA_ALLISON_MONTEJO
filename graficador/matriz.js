@@ -114,23 +114,17 @@ restar([[1, 2]], [[1, 2], [3, 4]]);
  * Multiplicación escalar k · A: multiplica CADA elemento por k.
  * En una imagen: k > 1 aclara, 0 < k < 1 oscurece.
  */
-function escalar(k, A) {
-    const m = A.length;
-    const n = A[0].length;
-    const R = crearMatriz(m, n);
-    for (let i = 0; i < m; i++) {
-    for (let j = 0; j < n; j++) {
-      R[i][j] = k * A[i][j];
-        }
+function escalar(K, A) {
+  const [filas, columnas] = orden(A);
+  const Resultado = crearMatriz(filas, columnas);
+  // ALGORITMO PARA MULTIPLICAR ELEMENTO A ELEMENTO
+  for (let f = 0; f < filas; f++) {
+    for (let c = 0; c < columnas; c++) {
+      Resultado[f][c] = K * A[f][c];
     }
-    return R;
+  }
+  return Resultado;
 }
-  // TODO Workshop 1
-    console.table(escalar(3, [[2, -1], [0, 4]]));
-// Esperado: [[6, -3], [0, 12]]
-
-console.table(escalar(0.5, [[200, 100], [50, 0]]));
-// Esperado: [[100, 50], [25, 0]]
 
 /**
  * Transpuesta: los renglones se vuelven columnas.
@@ -139,22 +133,16 @@ console.table(escalar(0.5, [[200, 100], [50, 0]]));
  * Ojo: el resultado NO tiene el mismo tamaño que A (salvo si es cuadrada).
  */
 function transpuesta(A) {
-    const m = A.length;      // renglones de A
-  const n = A[0].length;   // columnas de A
-  const R = crearMatriz(n, m);   // ojo: n × m
-    for (let i = 0; i < m; i++) {
-    for (let j = 0; j < n; j++) {
-        R[j][i] = A[i][j];
+  const [filas, columnas] = orden(A);
+  const Resultado =  crearMatriz(columnas, filas);
+  // ALGORITMO PARA LA TRANSPUESTA
+  for (let f = 0; f< filas; f++) {
+    for(let c = 0; c < columnas; c++) {
+      Resultado[c][f] = A[f][c];
     }
-    }
-    return R;
+  }
+  return Resultado;
 }
-  // TODO Workshop 1
-    console.table(transpuesta([[1, 2, 3], [4, 5, 6]]));
-// Esperado: [[1, 4], [2, 5], [3, 6]]
-
-console.log(orden(transpuesta([[1, 2, 3], [4, 5, 6]])));
-// Esperado: [3, 2]   ← de 2 × 3 pasó a 3 × 2
 
 /**
  * Multiplicación matricial A · B: renglón por columna.
@@ -208,8 +196,14 @@ multiplicar([[1, 2], [3, 4]], [[1, 2, 3]]);
 
 /** Determinante de una matriz 2 × 2:  ad − bc */
 function det2(T) {
-  // TODO Workshop 2
-  pendiente('det2', 'Workshop 2');
+  var determinante = 0;
+  const a = T[0][0]
+  const b = T[0][1]
+  const c = T[1][0]
+  const d = T[1][1]
+  // ALGORITMO PARA DETERMINANTE DE 2X2
+  determinante = a * d - b * c;
+  return determinante;
 }
 
 /**
@@ -236,7 +230,14 @@ function transformar(x, y, T) {
  */
 function determinante(A) {
   // TODO Workshop 2
-  pendiente('determinante', 'Workshop 2');
+  const [filas, columnas] =  orden(A);
+  var determinante = 0;
+  if (filas == 2) {
+    determinante = det2(A);
+    return determinante;
+  } else {
+    pendiente('determinante', 'Workshop 2');
+  }
 }
 
 
